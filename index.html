@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mapa de Colaborações</title>
+
+  <!-- D3 -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      background: radial-gradient(circle at center, #1a1a1f 0%, #0b0b0f 70%);
+      overflow: hidden;
+      font-family: sans-serif;
+    }
+    svg {
+      width: 100vw;
+      height: 100vh;
+      mix-blend-mode: screen;
+    }
+    text {
+      fill: white;
+      font-size: 12px;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body> 
+  <div id="tooltip" 
+       style="
+         position: absolute;
+         background: rgba(0,0,0,0.85);
+         color: white;
+         padding: 8px 12px;
+         border-radius: 6px;
+         font-size: 13px;
+         pointer-events: none;
+         opacity: 0;
+         transition: opacity 0.2s ease;
+       ">
+  </div>
+
+  <svg></svg>
+
+  <script src="mapa.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "id": "mario",
+      "name": "Mario Hirotoshi",
+      "role": "fotógrafo / artista visual",
+      "image": "mario.jpg",
+      "score": 300,
+      "connections": ["clara", "victor", "luneta", "povoas", "natu", "belch", "looney", "juliana", "dagua", "luny", "samara", "ayedun", "loys"]
+    },
+    {
+      "id": "clara",
+      "name": "Clara",
+      "role": "artista / produtora",
+      "image": "clara.jpg",
+      "score": 165,
+      "connections": ["mario", "victor", "povoas", "luneta"]
+    },
+    {
+      "id": "victor",
+      "name": "Victor Neves",
+      "role": "músico / live coding",
+      "image": "victor.jpg",
+      "score": 123,
+      "connections": ["mario", "clara", "luneta", "sistilho", "looney"]
+    },
+    {
+      "id": "povoas",
+      "name": "Uma Póvoas",
+      "role": "artista musical",
+      "image": "povoas.jpg",
+      "score": 132,
+      "connections": ["mario", "clara", "belch", "natu"]
+    },
+    {
+      "id": "natu",
+      "name": "NATU",
+      "role": "artista visual",
+      "image": "natu.jpg",
+      "score": 111,
+      "connections": ["povoas", "mario", "clara", "victor"]
+    },
+    {
+      "id": "belch",
+      "name": "Bruno Belchior",
+      "role": "artista musical",
+      "image": "belch.jpg",
+      "score": 132,
+      "connections": ["mario", "clara", "povoas", "dagua", "luny"]
+    },
+    {
+      "id": "looney",
+      "name": "Thiago Looney",
+      "role": "produtor audiovisual",
+      "image": "looney.jpg",
+      "score": 105,
+      "connections": ["mario", "clara", "juliana", "luneta", "samara", "luny"]
+    },
+    {
+      "id": "juliana",
+      "name": "Juliana Tizatto",
+      "role": "diretora e roteirista",
+      "image": "juliana.jpg",
+      "score": 48,
+      "connections": ["mario", "looney", "samara"]
+    },
+    {
+      "id": "luneta",
+      "name": "Luneta Mágica",
+      "role": "banda musical",
+      "image": "luneta.jpg",
+      "score": 40,
+      "connections": ["mario", "clara", "victor", "looney", "sistilho"]
+    },
+    {
+      "id": "dagua",
+      "name": "D'água Negra",
+      "role": "banda musical",
+      "image": "dagua.jpg",
+      "score": 75,
+      "connections": ["mario", "clara", "belch"]
+    },
+    {
+      "id": "luny",
+      "name": "Luny Tota",
+      "role": "produtora audiovisual",
+      "image": "luny.jpg",
+      "score": 60,
+      "connections": ["mario", "clara", "looney", "dagua", "belch", "luneta"]
+    },
+    {
+      "id": "samara",
+      "name": "Samara Souza",
+      "role": "operadora audiovisual",
+      "image": "sam.jpg",
+      "score": 28,
+      "connections": ["mario", "clara", "luny", "luneta", "belch", "juliana", "looney"]
+    },
+    {
+      "id": "ayedun",
+      "name": "Casa Cultural Ayédùn",
+      "role": "casa cultural",
+      "image": "ayedun.jpg",
+      "score": 45,
+      "connections": ["mario", "povoas", "natu"]
+    },
+    {
+      "id": "loys",
+      "name": "Gabrielly Loys",
+      "role": "curadora / artista visual",
+      "image": "loys.jpg",
+      "score": 42,
+      "connections": ["mario", "clara", "povoas", "victor", "ayedun", "natu"]
+    },
+    {
+      "id": "sistilho",
+      "name": "Sistilho",
+      "role": "artista musical",
+      "image": "sistilho.jpg",
+      "score": 72,
+      "connections": ["mario", "clara", "victor", "luneta"]
+    },
+    {
+      "id": "paulo",
+      "name": "Paulo Maciel",
+      "role": "designer",
+      "image": "paulo.jpg",
+      "score": 22,
+      "connections": ["mario", "clara", "dagua", "victor", "natu", "loys"]
+    }
+  ]
+}
