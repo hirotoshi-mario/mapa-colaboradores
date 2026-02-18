@@ -1,0 +1,957 @@
+{
+  "nodes": [
+    {
+      "id": "mario",
+      "name": "Mario Hirotoshi",
+      "role": "fotógrafo / artista visual",
+      "image": "faces/mario.jpg",
+      "score": 300,
+      "connections": [
+        {
+          "target": "clara",
+          "strength": 10
+        },
+        {
+          "target": "victor",
+          "strength": 10
+        },
+        {
+          "target": "luneta",
+          "strength": 10
+        },
+        {
+          "target": "povoas",
+          "strength": 10
+        },
+        {
+          "target": "natu",
+          "strength": 10
+        },
+        {
+          "target": "belch",
+          "strength": 10
+        },
+        {
+          "target": "looney",
+          "strength": 10
+        },
+        {
+          "target": "juliana",
+          "strength": 10
+        },
+        {
+          "target": "dagua",
+          "strength": 10
+        },
+        {
+          "target": "luny",
+          "strength": 10
+        },
+        {
+          "target": "samara",
+          "strength": 10
+        },
+        {
+          "target": "ayedun",
+          "strength": 10
+        },
+        {
+          "target": "loys",
+          "strength": 10
+        }
+      ]
+    },
+    {
+      "id": "clara",
+      "name": "Clara",
+      "role": "artista / produtora",
+      "image": "faces/clara.jpg",
+      "score": 165,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "victor",
+          "strength": 7
+        },
+        {
+          "target": "povoas",
+          "strength": 7
+        },
+        {
+          "target": "luneta",
+          "strength": 7
+        }
+      ]
+    },
+    {
+      "id": "victor",
+      "name": "Victor Neves",
+      "role": "músico / live coding",
+      "image": "faces/victor.jpg",
+      "score": 123,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "clara",
+          "strength": 7
+        },
+        {
+          "target": "luneta",
+          "strength": 7
+        },
+        {
+          "target": "sistilho",
+          "strength": 7
+        },
+        {
+          "target": "looney",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "povoas",
+      "name": "Uma Póvoas",
+      "role": "artista musical",
+      "image": "faces/povoas.jpg",
+      "score": 132,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "clara",
+          "strength": 7
+        },
+        {
+          "target": "belch",
+          "strength": 7
+        },
+        {
+          "target": "natu",
+          "strength": 7
+        }
+      ]
+    },
+    {
+      "id": "natu",
+      "name": "NATU",
+      "role": "artista visual",
+      "image": "faces/natu.jpg",
+      "score": 111,
+      "connections": [
+        {
+          "target": "povoas",
+          "strength": 7
+        },
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "clara",
+          "strength": 5
+        },
+        {
+          "target": "victor",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "belch",
+      "name": "Bruno Belchior",
+      "role": "artista musical",
+      "image": "faces/belch.jpg",
+      "score": 132,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "clara",
+          "strength": 5
+        },
+        {
+          "target": "povoas",
+          "strength": 7
+        },
+        {
+          "target": "dagua",
+          "strength": 7
+        },
+        {
+          "target": "luny",
+          "strength": 7
+        }
+      ]
+    },
+    {
+      "id": "looney",
+      "name": "Thiago Looney",
+      "role": "produtor audiovisual",
+      "image": "faces/looney.jpg",
+      "score": 105,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "clara",
+          "strength": 5
+        },
+        {
+          "target": "juliana",
+          "strength": 7
+        },
+        {
+          "target": "luneta",
+          "strength": 7
+        },
+        {
+          "target": "samara",
+          "strength": 7
+        },
+        {
+          "target": "luny",
+          "strength": 7
+        }
+      ]
+    },
+    {
+      "id": "juliana",
+      "name": "Juliana Tizatto",
+      "role": "diretora e roteirista",
+      "image": "faces/juliana.jpg",
+      "score": 48,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "looney",
+          "strength": 7
+        },
+        {
+          "target": "samara",
+          "strength": 7
+        }
+      ]
+    },
+    {
+      "id": "luneta",
+      "name": "Luneta Mágica",
+      "role": "banda musical",
+      "image": "faces/luneta.jpg",
+      "score": 40,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "clara",
+          "strength": 7
+        },
+        {
+          "target": "victor",
+          "strength": 7
+        },
+        {
+          "target": "looney",
+          "strength": 7
+        },
+        {
+          "target": "sistilho",
+          "strength": 7
+        }
+      ]
+    },
+    {
+      "id": "dagua",
+      "name": "D'água Negra",
+      "role": "banda musical",
+      "image": "faces/dagua.jpg",
+      "score": 75,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "clara",
+          "strength": 5
+        },
+        {
+          "target": "belch",
+          "strength": 7
+        }
+      ]
+    },
+    {
+      "id": "luny",
+      "name": "Luny Tota",
+      "role": "produtora audiovisual",
+      "image": "faces/luny.jpg",
+      "score": 60,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "clara",
+          "strength": 5
+        },
+        {
+          "target": "looney",
+          "strength": 7
+        },
+        {
+          "target": "dagua",
+          "strength": 5
+        },
+        {
+          "target": "belch",
+          "strength": 7
+        },
+        {
+          "target": "luneta",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "samara",
+      "name": "Samara Souza",
+      "role": "operadora audiovisual",
+      "image": "faces/sam.jpg",
+      "score": 28,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "clara",
+          "strength": 5
+        },
+        {
+          "target": "luny",
+          "strength": 5
+        },
+        {
+          "target": "luneta",
+          "strength": 5
+        },
+        {
+          "target": "belch",
+          "strength": 5
+        },
+        {
+          "target": "juliana",
+          "strength": 7
+        },
+        {
+          "target": "looney",
+          "strength": 7
+        }
+      ]
+    },
+    {
+      "id": "ayedun",
+      "name": "Casa Cultural Ayédùn",
+      "role": "casa cultural",
+      "image": "faces/ayedun.jpg",
+      "score": 45,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "povoas",
+          "strength": 5
+        },
+        {
+          "target": "natu",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "loys",
+      "name": "Gabrielly Loys",
+      "role": "curadora / artista visual",
+      "image": "faces/loys.jpg",
+      "score": 42,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "clara",
+          "strength": 5
+        },
+        {
+          "target": "povoas",
+          "strength": 5
+        },
+        {
+          "target": "victor",
+          "strength": 5
+        },
+        {
+          "target": "ayedun",
+          "strength": 5
+        },
+        {
+          "target": "natu",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "sistilho",
+      "name": "Sistilho",
+      "role": "artista musical",
+      "image": "faces/sistilho.jpg",
+      "score": 82,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "victor",
+          "strength": 7
+        },
+        {
+          "target": "luneta",
+          "strength": 7
+        }
+      ]
+    },
+    {
+      "id": "paulo",
+      "name": "Paulo Maciel",
+      "role": "designer",
+      "image": "faces/paulo.jpg",
+      "score": 22,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "clara",
+          "strength": 5
+        },
+        {
+          "target": "dagua",
+          "strength": 5
+        },
+        {
+          "target": "victor",
+          "strength": 5
+        },
+        {
+          "target": "natu",
+          "strength": 5
+        },
+        {
+          "target": "loys",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "viis",
+      "name": "Diego Viis",
+      "role": "artista musical",
+      "image": "faces/viis.jpg",
+      "score": 78,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "victor",
+          "strength": 5
+        },
+        {
+          "target": "luneta",
+          "strength": 5
+        },
+        {
+          "target": "sistilho",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "giuli",
+      "name": "Giuli Aguiar",
+      "role": "cinegrafista / assistente de câmera",
+      "image": "faces/viis.jpg",
+      "score": 25,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "looney",
+          "strength": 5
+        },
+        {
+          "target": "clara",
+          "strength": 5
+        },
+        {
+          "target": "sistilho",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "val",
+      "name": "Valentina Ricardo",
+      "role": "diretora de fotografia",
+      "image": "faces/val.jpg",
+      "score": 36,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "looney",
+          "strength": 5
+        },
+        {
+          "target": "juliana",
+          "strength": 5
+        },
+        {
+          "target": "samara",
+          "strength": 5
+        },
+        {
+          "target": "luny",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "uriel",
+      "name": "Uriel Rebelo",
+      "role": "designer",
+      "image": "faces/uriel.jpg",
+      "score": 51,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "luny",
+          "strength": 5
+        },
+        {
+          "target": "dagua",
+          "strength": 5
+        },
+        {
+          "target": "belch",
+          "strength": 5
+        },
+        {
+          "target": "demi",
+          "strength": 7
+        }
+      ]
+    },
+    {
+      "id": "demi",
+      "name": "Demi Brasil",
+      "role": "fotógrafo",
+      "image": "faces/demi.jpg",
+      "score": 39,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "luny",
+          "strength": 5
+        },
+        {
+          "target": "dagua",
+          "strength": 5
+        },
+        {
+          "target": "belch",
+          "strength": 5
+        },
+        {
+          "target": "uriel",
+          "strength": 7
+        },
+        {
+          "target": "val",
+          "strength": 5
+        },
+        {
+          "target": "corama",
+          "strength": 7
+        }
+      ]
+    },
+    {
+      "id": "duplofilme",
+      "name": "duplo.filme",
+      "role": "produtora de cinema",
+      "image": "faces/dpf.jpg",
+      "score": 33,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "luny",
+          "strength": 5
+        },
+        {
+          "target": "looney",
+          "strength": 5
+        },
+        {
+          "target": "bauer",
+          "strength": 7
+        }
+      ]
+    },
+    {
+      "id": "rafa",
+      "name": "Rafael Ramos",
+      "role": "diretor e roteirista",
+      "image": "faces/rafa.jpg",
+      "score": 15,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "luny",
+          "strength": 5
+        },
+        {
+          "target": "val",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "corama",
+      "name": "Corama",
+      "role": "artista musical",
+      "image": "faces/corama.jpg",
+      "score": 20,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "clara",
+          "strength": 5
+        },
+        {
+          "target": "demi",
+          "strength": 7
+        }
+      ]
+    },
+    {
+      "id": "bauer",
+      "name": "Diego Bauer",
+      "role": "ator / diretor de cinema",
+      "image": "faces/bauer.jpg",
+      "score": 20,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "luneta",
+          "strength": 5
+        },
+        {
+          "target": "duplofilme",
+          "strength": 7
+        },
+        {
+          "target": "luny",
+          "strength": 5
+        },
+        {
+          "target": "samara",
+          "strength": 5
+        },
+        {
+          "target": "clara",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "mariana",
+      "name": "Mariana Pelizer",
+      "role": "artista / psicóloga",
+      "image": "faces/mariana.jpg",
+      "score": 93,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "erika",
+          "strength": 7
+        }
+      ]
+    },
+    {
+      "id": "erika",
+      "name": "Erika Genebra",
+      "role": "artista / psicóloga",
+      "image": "faces/erika.jpg",
+      "score": 33,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "mariana",
+          "strength": 7
+        },
+        {
+          "target": "belch",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "shaolin",
+      "name": "Kiki House of Shaolin",
+      "role": "ballroom house",
+      "image": "faces/shaolin.jpg",
+      "score": 45,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        }
+      ]
+    },
+    {
+      "id": "deriva",
+      "name": "Deriva Cartográfica",
+      "role": "coletivo de artistas",
+      "image": "faces/deriva.jpg",
+      "score": 60,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "clara",
+          "strength": 5
+        },
+        {
+          "target": "giuli",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "oda",
+      "name": "Gabriel Oda",
+      "role": "musicista",
+      "image": "faces/oda.jpg",
+      "score": 15,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "sistilho",
+          "strength": 5
+        },
+        {
+          "target": "victor",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "chico",
+      "name": "Francisco Ricardo",
+      "role": "diretor de arte",
+      "image": "faces/chico.jpg",
+      "score": 39,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "looney",
+          "strength": 5
+        },
+        {
+          "target": "luny",
+          "strength": 5
+        },
+        {
+          "target": "juliana",
+          "strength": 5
+        },
+        {
+          "target": "luneta",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "anthony",
+      "name": "Anthony Leon",
+      "role": "advogado / coadjuvante",
+      "image": "faces/anthony.jpg",
+      "score": 33,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "luneta",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "luan",
+      "name": "Luan Chagas",
+      "role": "advogado / coadjuvante",
+      "image": "faces/luan.jpg",
+      "score": 30,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "luneta",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "ian",
+      "name": "Ian Aguiar",
+      "role": "advogado / coadjuvante",
+      "image": "faces/luan.jpg",
+      "score": 30,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "luneta",
+          "strength": 5
+        },
+        {
+          "target": "luan",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "andré",
+      "name": "Luiz André",
+      "role": "fotógrafo",
+      "image": "faces/andré.jpg",
+      "score": 12,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "samara",
+          "strength": 5
+        },
+        {
+          "target": "ayedun",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "casemiro",
+      "name": "Vitor Casemiro",
+      "role": "editor de fotolivros",
+      "image": "faces/casemiro.jpg",
+      "score": 63,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "andressa",
+          "strength": 7
+        }
+      ]
+    },
+    {
+      "id": "andressa",
+      "name": "Andressa Ce.",
+      "role": "editor de fotolivros",
+      "image": "faces/andressa.jpg",
+      "score": 60,
+      "connections": [
+        {
+          "target": "mario",
+          "strength": 10
+        },
+        {
+          "target": "casemiro",
+          "strength": 7
+        }
+      ]
+    }
+  ]
+}

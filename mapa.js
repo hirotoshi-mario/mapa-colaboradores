@@ -4,8 +4,8 @@ const height = window.innerHeight;
 const svg = d3.select("svg");
 const tooltip = d3.select("#tooltip");
 
-const MIN_DISTANCE = 700;
-const MAX_DISTANCE = 2000;
+const MIN_DISTANCE = 150;
+const MAX_DISTANCE = 800;
 
 
 d3.json("data.json").then(data => {
@@ -44,19 +44,22 @@ nodes.forEach(d => {
 });
 
   const links = [];
+
   nodes.forEach(node => {
-    node.connections.forEach(target => {
-      links.push({ source: node.id, target });
+    node.connections.forEach(conn => {
+      links.push({
+        source: node.id,
+        target: conn.target,
+        strength: conn.strength
+      });
     });
   });
 
   const simulation = d3.forceSimulation(nodes)
-  .force("link", d3.forceLink(links)
+    .force("link", d3.forceLink(links)
     .id(d => d.id)
-    .distance(d => {
-      const normalized = d.source.score / maxScore;
-      return MAX_DISTANCE - normalized * (MAX_DISTANCE - MIN_DISTANCE);
-    })
+    .distance(d => 600 - d.strength * 30)
+    .strength(d => d.strength / 8)
   )
   .force("charge", d3.forceManyBody().strength(-160))
   .force("center", d3.forceCenter(width / 2, height / 2))
@@ -72,7 +75,7 @@ nodes.forEach(d => {
   },
   width / 2,
   height / 2
-).strength(0.4));
+).strength(0.08));
 
 
   const link = svg.append("g")
