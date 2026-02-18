@@ -17,11 +17,11 @@
         },
         {
           "target": "luneta",
-          "strength": 5
+          "strength": 7
         },
         {
           "target": "povoas",
-          "strength": 7
+          "strength": 8
         },
         {
           "target": "natu",
@@ -53,7 +53,7 @@
         },
         {
           "target": "ayedun",
-          "strength": 6
+          "strength": 7
         },
         {
           "target": "loys",
@@ -62,6 +62,94 @@
         {
           "target": "oda",
           "strength": 5
+        },
+        {
+          "target": "sistilho",
+          "strength": 8
+        },
+        {
+          "target": "paulo",
+          "strength": 6
+        },
+        {
+          "target": "viis",
+          "strength": 6
+        },
+        {
+          "target": "giuli",
+          "strength": 6
+        },
+        {
+          "target": "val",
+          "strength": 5
+        },
+        {
+          "target": "uriel",
+          "strength": 5
+        },
+        {
+          "target": "demi",
+          "strength": 5
+        },
+        {
+          "target": "duplofilme",
+          "strength": 7
+        },
+        {
+          "target": "rafa",
+          "strength": 6
+        },
+        {
+          "target": "corama",
+          "strength": 5
+        },
+        {
+          "target": "bauer",
+          "strength": 7
+        },
+        {
+          "target": "mariana",
+          "strength": 9
+        },
+        {
+          "target": "erika",
+          "strength": 7
+        },
+        {
+          "target": "shaolin",
+          "strength": 7
+        },
+        {
+          "target": "deriva",
+          "strength": 7
+        },
+        {
+          "target": "chico",
+          "strength": 7
+        },
+        {
+          "target": "anthony",
+          "strength": 8
+        },
+        {
+          "target": "luan",
+          "strength": 7
+        },
+        {
+          "target": "ian",
+          "strength": 8
+        },
+        {
+          "target": "andré",
+          "strength": 6
+        },
+        {
+          "target": "casemiro",
+          "strength": 7
+        },
+        {
+          "target": "andressa",
+          "strength": 6
         }
       ]
     },
